@@ -362,7 +362,7 @@ def ln(x):
         sign_x = sgn(x)
         x = aabs(x)
         
-        n = om(x)
+        n = magnitude_order(x)
         m = x/10**n
         result = ln0(m)+n*ln10
 
